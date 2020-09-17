@@ -1,0 +1,44 @@
+"C:\Users\Asus RoG\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.5107.21\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Вова\LABA5
+-- [hunter] Initializing Hunter workspace (9a3594a61227967fb92159339ba326701b287b19)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz
+-- [hunter]   -> C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe -- broken
+CMake Error at C:/Users/Asus RoG/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/bin/cmake/win/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "D:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/Р’РѕРІР°/LABA5/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"D:/MinGW/bin/mingw32-make.exe" "cmTC_f761a/fast"
+    D:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f761a.dir\build.make CMakeFiles/cmTC_f761a.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/в”¬СЋС‚СЂ/LABA5/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_f761a.dir/testCCompiler.c.obj
+    D:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_f761a.dir\testCCompiler.c.obj   -c D:\в•ЁРўв•Ёв•›в•Ёв–“в•Ёв–‘\LABA5\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: СЋВ°С€СЃСЉСЂ: D:\в•ЁРўв•Ёв•›в•Ёв–“в•Ёв–‘\LABA5\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: Р‡СЂР„СЂС‹в„–СЌСЂВ  СЋВ°С€СЃСЉСЂ: СЌС… С‡СЂС„СЂСЌв€љ С‚С—СЋС„СЌв€љС… Р‡СЂС‰С‹в€љ
+    СЉСЋСЊСЏС€С‹В РЋС€В  СЏРЃС…РЃС‚СЂСЌСЂ.
+    CMakeFiles\cmTC_f761a.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_f761a.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f761a.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/в”¬СЋС‚СЂ/LABA5/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_f761a/fast' failed
+    mingw32-make.exe: *** [cmTC_f761a/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:22 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/Р’РѕРІР°/LABA5/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/Р’РѕРІР°/LABA5/cmake-build-debug/CMakeFiles/CMakeError.log".
